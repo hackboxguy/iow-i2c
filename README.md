@@ -8,6 +8,6 @@ e.g:
  2. i2c-write ==> 0xA0 0x11 0x11
  3. i2c-read  <== 0xA0 (reaback previously written two bytes)
  4. verify if written and read-back bytes match.
- 5. increase patter count i.e 0x11 to 0x22
+ 5. increase count i.e 0x11 0x11 to 0x22 0x22
  6. repeat 15 times (i.e exit when count reaches 0xFF)
 
