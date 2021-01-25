@@ -1,5 +1,5 @@
 # iow-i2c
-iow-i2c utility is used for testing i2c slave devices using usb-to-i2c-dongle(on linux platform) from Codecode-Mercenaries(IO-Warrior28)
+iow-i2c utility is used for testing i2c slave devices using usb-to-i2c-dongle(on Linux platform) from Code-Mercenaries(IO-Warrior28)
 
 As of now, this utility simply sends two byte count value[0x11 to 0xFF] to slave device 0xA0.
 
