@@ -1,4 +1,4 @@
-SOURCES := iow-i2c.c iowkit.c
+SOURCES := iow-i2c.cpp iowkit.c
 HEADERS := iowarrior.h iowkit.h
 
 all:     iow-i2c
